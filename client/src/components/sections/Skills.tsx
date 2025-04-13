@@ -7,7 +7,7 @@ export default function Skills() {
   const [selectedSkill, setSelectedSkill] = useState<string | null>(null);
   
   // Group skills by category
-  const frontend = skills.filter(skill => skill.category === "Frontend");
+  const technical = skills.filter(skill => skill.category === "Technical");
   const libraries = skills.filter(skill => skill.category === "Libraries & State");
   const tools = skills.filter(skill => skill.category === "Tools & Platforms");
   const testing = skills.filter(skill => skill.category === "Testing");
@@ -142,7 +142,7 @@ export default function Skills() {
         </motion.div>
         
         <div ref={skillsRef} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Frontend Technologies */}
+          {/* Technical Technologies */}
           <motion.div 
             className="bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300"
             variants={cardVariants}
@@ -164,7 +164,7 @@ export default function Skills() {
               >
                 <i className="ri-code-s-slash-line text-2xl"></i>
               </motion.div>
-              <h3 className="text-xl font-semibold">Frontend</h3>
+              <h3 className="text-xl font-semibold">Technical</h3>
             </div>
             
             <motion.div 
@@ -173,7 +173,7 @@ export default function Skills() {
               initial="hidden"
               animate={isInView ? "show" : "hidden"}
             >
-              {frontend.map((skill, index) => (
+              {technical.map((skill, index) => (
                 <motion.div 
                   key={index} 
                   className="skill-item"

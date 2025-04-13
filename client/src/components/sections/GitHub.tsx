@@ -30,7 +30,7 @@ export default function GitHub() {
   // Mock data for development and demonstration purposes
   const mockUser: GithubUser = {
     login: "bimalendu04",
-    name: "Bimalendu Sarkar",
+    name: "Gaurav Kumar",
     avatar_url: "https://avatars.githubusercontent.com/u/10000000?v=4",
     public_repos: 24,
     followers: 48,

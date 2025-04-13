@@ -12,9 +12,9 @@ export default function Footer() {
               <div className="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold text-xl">
                 BS
               </div>
-              <h2 className="text-xl font-bold">Bimalendu Sarkar</h2>
+              <h2 className="text-xl font-bold">Gaurav Kumar</h2>
             </div>
-            <p className="text-gray-400 mt-2">Frontend Developer specializing in ReactJS</p>
+            <p className="text-gray-400 mt-2">Senior Software Developer specializing in C++ and Qt</p>
           </div>
           
           <div className="flex flex-col md:flex-row md:items-center space-y-4 md:space-y-0 md:space-x-8">
@@ -44,7 +44,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">© {currentYear} Bimalendu Sarkar. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">© {currentYear} Gaurav Kumar. All rights reserved.</p>
           
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="https://www.linkedin.com/in/bimalendu-sarkar" target="_blank" rel="noreferrer" className="text-gray-400 hover:text-white transition-colors duration-300">

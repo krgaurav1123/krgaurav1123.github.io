@@ -109,19 +109,19 @@ export const resumeData: ResumeData = {
       name: "Development Tools",
       level: null,
       keywords: ["VSCode", "Qt", "Visual Studio"],
-      category: "Technical",
+      category: "Tools & Platforms",
     },
     {
       name: "Testing & CI/CD",
       level: null,
       keywords: ["GTest", "CMake", "GitHub Actions"],
-      category: "Technical",
+      category: "Testing",
     },
     {
       name: "Containerization & Virtualization",
       level: null,
       keywords: ["Docker", "QEMU"],
-      category: "Technical",
+      category: "Tools & Platforms",
     },
     {
       name: "Databases & Monitoring",
@@ -133,7 +133,7 @@ export const resumeData: ResumeData = {
         "Grafana",
         "Node Exporter",
       ],
-      category: "Technical",
+      category: "Tools & Platforms",
     },
     {
       name: "CAN Communication",

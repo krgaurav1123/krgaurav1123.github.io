@@ -81,7 +81,7 @@ export default function Header() {
           <div className="h-10 w-10 rounded-full bg-primary flex items-center justify-center text-white font-bold text-xl">
             BS
           </div>
-          <h1 className="text-xl font-bold">Bimalendu Sarkar</h1>
+          <h1 className="text-xl font-bold">Gaurav Kumar</h1>
         </div>
         
         {/* Desktop Navigation */}

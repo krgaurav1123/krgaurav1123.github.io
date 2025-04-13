@@ -39,9 +39,6 @@ export default function About() {
               <p className="text-gray-700 dark:text-gray-300 mb-4">
                 {basics.summary}
               </p>
-              <p className="text-gray-700 dark:text-gray-300">
-                My expertise includes state management with React Context and Redux-toolkit, building responsive interfaces, and creating maintainable code architecture. I'm passionate about creating efficient, user-friendly interfaces that deliver exceptional user experiences.
-              </p>
             </motion.div>
             
             <motion.div 
